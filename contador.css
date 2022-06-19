@@ -1,0 +1,69 @@
+body {
+    background: radial-gradient(rgb(24, 133, 95), rgb(13, 66, 47));
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+main {
+    background: white;
+    border-radius: 10px 40px 10px 40px;
+    width: 640px;
+    padding: 5px 30px 30px 30px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+section{
+    display: block;
+    text-align: center;
+}
+
+.textbox {
+    display: inline-block;
+    margin: 5px;
+    width: 40px;
+    padding: 5px;
+    border: 2px solid rgb(24,133,95);
+}
+
+#contar {
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: azure;
+    background: linear-gradient(rgb(13, 66, 47), rgb(24,133,95), white);
+    border-radius: 200px;
+    border-color: aliceblue;
+    box-shadow: 5px 5px 10px black;
+}
+
+#contar:hover {
+    font-size: 22px;
+    background: linear-gradient(white, rgb(24,133,95),rgb(13, 66, 47));
+    border-color: rgb(24,133,95);
+}
+
+
+
+#resp {
+    display: block;
+    text-align: center;
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid rgb(24, 133, 95);
+    border-radius: 20px;
+    position: relative;
+    left: 20%;
+    
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

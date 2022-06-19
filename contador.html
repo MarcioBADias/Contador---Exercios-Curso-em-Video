@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de passos</title>
+    <link rel="stylesheet" href="contador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Insira as informações para realizarmos a contagem</h2>
+            <form>
+                <label for="inicio">Início:</label>
+                <input type="number" name="start" id="start" class="textbox">
+                
+                <label for="fim">Fim:</label>
+                <input type="number" name="end" id="end" class="textbox">
+                
+                <label for="passos">Passos:</label>
+                <input type="number" name="step" id="step" class="textbox">
+                
+                
+            </form>
+            <input type="button" value="Contar" id="contar" onclick="contar()">
+
+            <div id="resp"><h3>Contando...</h3></div>
+            <div></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Curso em Vídeo</p>
+    </footer>
+    <script src="contador.js"></script>
+</body>
+</html>
