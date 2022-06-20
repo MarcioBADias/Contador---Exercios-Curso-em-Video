@@ -16,9 +16,9 @@ function contar() {
         let stp = Number(step.value);
 
         for (let c = s; c <= e; c += stp) {
-            resp.innerHTML += ` ${c} `;
-            
+            resp.innerHTML += ` ${c} ➲`;            
         }
+        resp.innerHTML += ` 🏁`
     }{
         
     }
